@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "minesweepermod",
+  "version": "1.0.0",
+  "name": "Minesweeper Mod",
+  "description": "Открываем мини-игру Сапер по клавише Ж",
+  "authors": ["YourName"],
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.minesweeper.MinesweeperMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.8",
+    "fabric": "*",
+    "minecraft": "1.21.11"
+  }
+}
